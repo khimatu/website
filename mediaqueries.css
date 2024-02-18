@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px){
+    #january{
+        display:none;
+    }
+    #tata-nav{
+        display: flex;
+    }
+    
+}

@@ -7,20 +7,39 @@
     <meta name="robots" content="index,follow">
     <title>Potfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <link rel="icon" href="/img/logoo.jpg">
 </head>
 <body>
     <nav id="january">
-        <div class="logo">Khimatu</div>
+        <div class="logo">Khi<span>matu</span></div>
         <div>
             <ul class="nav-link">
-              <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#service">Services</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
+    <nav id="tata-nav">
+        <div class="logo">Khi<span>matu</span></div>
+        <div class="tata-menu">
+            <div class="tata-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#service" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic_cont">
+        img
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
-</html>
